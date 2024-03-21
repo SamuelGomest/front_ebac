@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Contatos</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.js">
+</head>
+<body>
+
+<h2>Agenda de Contatos</h2>
+
+<form id="formContato">
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome">
+    <label for="telefone">Telefone:</label>
+    <input type="text" id="telefone" name="telefone">
+    <button type="button" onclick="adicionarContato()">Cadastrar</button>
+</form>
+
+<table id="tabelaContatos">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Telefone</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Aqui serão adicionadas as linhas dinamicamente -->
+    </tbody>
+</table>
+
+<script src="index.js"></script>
+
+</body>
+</html>
